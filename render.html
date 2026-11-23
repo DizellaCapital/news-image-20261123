@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#fff}
+.page{width:1024px;height:1024px;background:#F8F5EE;color:#141413;font-family:'Noto Sans','DejaVu Sans',sans-serif;overflow:hidden;padding:0 26px}
+.rule{height:3px;background:#141413}
+.rule.red{background:#A61C1C;height:4px}
+.masthead{padding:8px 0 6px;text-align:center}
+.masthead h1{font-family:'Noto Serif Display','Noto Serif',serif;font-weight:900;font-size:48px;letter-spacing:6px;line-height:1}
+.masthead .dateline{font-family:'Noto Serif',serif;font-weight:700;font-size:17px;letter-spacing:4px;margin-top:6px}
+.masthead .kicker{font-size:11px;letter-spacing:2.5px;color:#A61C1C;font-weight:700;margin-top:4px}
+.numbers{padding:5px 0 4px}
+.numbers .ttl{font-size:10px;letter-spacing:2px;font-weight:700;color:#6B6B60;margin-bottom:4px}
+.numgrid{display:flex;gap:0}
+.numcell{flex:1;border-left:1px solid #B4AC96;padding:0 8px}
+.numcell:first-child{border-left:none;padding-left:0}
+.numcell .v{font-family:'Noto Serif Display',serif;font-weight:900;font-size:21px;color:#A61C1C;line-height:1}
+.numcell .l{font-size:9px;line-height:1.25;color:#3A3A35;margin-top:2px}
+.regions{display:flex;gap:6px;padding:4px 0 5px;justify-content:space-between}
+.chip{font-size:9.5px;font-weight:700;letter-spacing:.6px;border:1px solid #141413;border-radius:10px;padding:2px 7px;white-space:nowrap}
+.chip b{color:#A61C1C}
+.hero{display:flex;gap:14px;border-top:3px solid #141413;border-bottom:1px solid #B4AC96;padding:8px 0}
+.hero .art{width:400px;height:140px;background:#EFE7D3;border:1px solid #B4AC96;flex:none}
+.hero .txt{flex:1}
+.badge{display:inline-block;background:#A61C1C;color:#F8F5EE;font-weight:700;font-size:11px;padding:2px 7px;letter-spacing:1px}
+.hero h2{font-family:'Noto Serif',serif;font-weight:700;font-size:29px;line-height:1.05;margin:6px 0 5px}
+.hero .deck{font-size:13.5px;line-height:1.3}
+.hero .meta{font-size:11px;color:#6B6B60;margin-top:8px}
+.hero .meta b{color:#141413}
+.cards{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;padding:8px 0 6px;border-bottom:1px solid #B4AC96}
+.card .art{height:40px;background:#EFE7D3;border:1px solid #B4AC96}
+.card h3{font-family:'Noto Serif',serif;font-weight:700;font-size:12.5px;line-height:1.12;margin-top:4px;min-height:24px}
+.card p{font-size:9px;line-height:1.25;color:#3A3A35}
+.card .meta{font-size:8.5px;color:#6B6B60;margin-top:3px}
+.card .meta b{color:#A61C1C}
+.mapsec{padding:6px 0 4px;border-bottom:1px solid #B4AC96}
+.mapsec .ttl{font-size:10px;letter-spacing:2px;font-weight:700;color:#6B6B60}
+.mapsec .ttl span{color:#141413}
+#map{width:100%;height:56px;display:block}
+.briefs{display:flex;gap:16px;padding:6px 0 2px}
+.bcol{flex:1}
+.bcol h4{font-size:10px;letter-spacing:1.5px;color:#A61C1C;border-bottom:2px solid #A61C1C;padding-bottom:2px;margin-bottom:5px}
+.brief{margin-bottom:2px}
+.brief .h{font-size:10px;font-weight:700;line-height:1.15}
+.brief .h b{color:#A61C1C}
+.brief .s{font-size:9px;line-height:1.15;color:#3A3A35}
+.brief .s i{color:#6B6B60;font-style:normal}
+.footer{border-top:3px solid #141413;padding-top:4px;font-size:9.5px;line-height:1.35;color:#3A3A35}
+.footer b{color:#141413}
+.footer .utc{color:#6B6B60}
+</style></head>
+<body><div class="page">
+<div class="masthead"><h1>THE MONDAY LEDGER</h1><div class="dateline">MONDAY, 23 NOVEMBER 2026</div><div class="kicker">36 DATED STORIES &middot; 8 REGIONS &middot; VERIFIED EDITION</div></div>
+<div class="rule red"></div>
+<div class="numbers"><div class="ttl">23 NOV BY THE NUMBERS</div><div class="numgrid">
+<div class="numcell"><div class="v">0</div><div class="l">fossil-fuel mentions in the Antalya Pact</div></div>
+<div class="numcell"><div class="v">2</div><div class="l">tankers struck in the Strait of Hormuz</div></div>
+<div class="numcell"><div class="v">165</div><div class="l">missiles fired at Ukraine in one week</div></div>
+<div class="numcell"><div class="v">11</div><div class="l">killed in the Sinaloa raid that caught El Chapo Isidro</div></div>
+<div class="numcell"><div class="v">720/9d</div><div class="l">India&rsquo;s record Test total in Wellington</div></div>
+<div class="numcell"><div class="v">35%</div><div class="l">clean-power share targeted for 2035</div></div>
+</div></div>
+<div class="rule"></div>
+<div class="regions">
+<span class="chip">GLOBAL <b>3</b></span><span class="chip">MIDDLE EAST <b>4</b></span><span class="chip">EUROPE <b>7</b></span><span class="chip">ASIA-PACIFIC <b>6</b></span><span class="chip">SOUTH ASIA <b>4</b></span><span class="chip">AFRICA <b>4</b></span><span class="chip">NORTH AMERICA <b>6</b></span><span class="chip">LATIN AMERICA <b>2</b></span>
+</div>
+<div class="hero">
+<svg class="art" viewBox="0 0 400 188"><rect width="400" height="188" fill="#16233F"/><circle cx="200" cy="150" r="120" fill="#1E3258"/><path d="M60 188 L60 120 Q200 40 340 120 L340 188 Z" fill="#F8F5EE"/><path d="M60 188 L60 120 Q200 40 340 120" fill="none" stroke="#A61C1C" stroke-width="4"/><rect x="150" y="118" width="100" height="70" fill="#A61C1C"/><rect x="165" y="132" width="70" height="10" fill="#F8F5EE"/><rect x="165" y="148" width="70" height="10" fill="#F8F5EE"/><rect x="165" y="164" width="40" height="10" fill="#F8F5EE"/><circle cx="90" cy="60" r="16" fill="#B98A2F"/><text x="90" y="66" font-size="15" text-anchor="middle" fill="#141413" font-weight="bold">22</text><text x="388" y="60" font-size="13" fill="#F8F5EE" font-weight="bold" text-anchor="end">NO DEAL</text><text x="388" y="78" font-size="11" fill="#B4AC96" text-anchor="end">2 WEEKS OVERTIME</text><rect x="20" y="150" width="8" height="38" fill="#A61C1C"/><rect x="372" y="150" width="8" height="38" fill="#A61C1C"/></svg>
+<div class="txt"><span class="badge">1 &middot; HERO</span><h2>COP31 collapses in Antalya</h2><div class="deck">The longest climate summit in history ends with no comprehensive deal &mdash; and a final pact that does not mention fossil fuels at all. The EU and Britain refuse to sign. Ninety-plus nations back an electrification pledge instead.</div><div class="meta"><b>22 Nov 2026</b> &middot; Global / Climate &middot; Sources: CNN, Reuters, Le Monde</div></div>
+</div>
+<div class="cards" id="cards"></div>
+<div class="mapsec"><div class="ttl">WHERE IT HAPPENED &nbsp;<span>pins 1&ndash;13 &middot; dotted world map</span></div><svg id="map" viewBox="0 0 972 56"></svg></div>
+<div class="briefs" id="briefs"></div>
+<div class="footer"><b>DATE CHECK &mdash; deliberately left out:</b> Hormuz swimmer stunt (one source, date unclear) &middot; India&ndash;Pakistan cricket in Qatar (no clear date) &middot; Melania / Barron gossip (unverified) &middot; Greenland investment screen (not verified by two sources).<br><span class="utc">All 36 stories dated 20&ndash;23 Nov 2026 &middot; UTC 00:00&ndash;24:00 &middot; Stories verified to 00:45 UTC, 23 Nov 2026 &middot; Sources: Reuters, AP, AFP, CNN, BBC, Al Jazeera, UKMTO, The Times</span></div>
+</div>
+<script>
+const CARDS=[
+{n:2,t:"Tankers struck in Hormuz",s:"Two tankers hit; blockade standoff grips the vital strait.",d:"21 Nov",src:"UKMTO, Reuters",art:'<rect width="156" height="62" fill="#16233F"/><path d="M0 44 Q40 36 80 44 T156 44 L156 62 L0 62Z" fill="#2E5A88"/><rect x="52" y="26" width="52" height="12" fill="#B98A2F"/><rect x="62" y="16" width="6" height="10" fill="#F8F5EE"/><circle cx="128" cy="14" r="5" fill="#A61C1C"/><path d="M128 14 L140 26" stroke="#A61C1C" stroke-width="2"/>'},
+{n:3,t:"El Chapo Isidro captured",s:"Mexico seizes FBI Top 10 fugitive in Sinaloa raid; 11 killed.",d:"20 Nov",src:"Reuters, AP",art:'<rect width="156" height="62" fill="#EFE7D3"/><rect x="0" y="0" width="156" height="62" fill="#3A3A35" opacity="0.12"/><g stroke="#141413" stroke-width="5"><line x1="30" y1="0" x2="30" y2="62"/><line x1="62" y1="0" x2="62" y2="62"/><line x1="94" y1="0" x2="94" y2="62"/><line x1="126" y1="0" x2="126" y2="62"/></g><circle cx="78" cy="31" r="14" fill="#A61C1C"/><text x="78" y="36" font-size="13" text-anchor="middle" fill="#F8F5EE" font-weight="bold">FBI</text>'},
+{n:4,t:"Russian ship Sparta II ablaze",s:"Cargo ship burns in Gulf of Finland after drone strike; crew out.",d:"21 Nov",src:"Reuters, AFP",art:'<rect width="156" height="62" fill="#16233F"/><path d="M0 46 Q40 40 80 46 T156 46 L156 62 L0 62Z" fill="#2E5A88"/><rect x="48" y="30" width="60" height="12" fill="#141413"/><path d="M70 30 L70 18 L76 30Z" fill="#A61C1C"/><path d="M78 30 Q84 12 90 22 Q96 8 100 24 Q104 14 108 30Z" fill="#B98A2F"/>'},
+{n:5,t:"Kyiv endures 165-missile week",s:"Russia fires 165 missiles and about 2,700 drones in one week.",d:"to 22 Nov",src:"Kyiv Independent",art:'<rect width="156" height="62" fill="#141413"/><g fill="#F8F5EE"><rect x="12" y="28" width="14" height="34"/><rect x="32" y="18" width="12" height="44"/><rect x="50" y="30" width="16" height="32"/></g><path d="M20 28 L30 8 L40 28" stroke="#B98A2F" stroke-width="3" fill="none"/><circle cx="130" cy="16" r="4" fill="#A61C1C"/><path d="M130 16 L142 30" stroke="#A61C1C" stroke-width="2"/>'},
+{n:6,t:"Lethal-AI talks go on",s:"Nations agree to keep negotiating curbs on killer robots.",d:"22 Nov",src:"AP, UN News",art:'<rect width="156" height="62" fill="#EFE7D3"/><circle cx="78" cy="30" r="20" fill="#16233F"/><circle cx="70" cy="26" r="4" fill="#F8F5EE"/><circle cx="86" cy="26" r="4" fill="#F8F5EE"/><rect x="66" y="38" width="24" height="3" fill="#F8F5EE"/><line x1="30" y1="10" x2="126" y2="52" stroke="#A61C1C" stroke-width="4"/>'},
+{n:7,t:"Korea minister quits in AI scandal",s:"Education chief resigns over AI exam-cheating scandal.",d:"22 Nov",src:"AP, Reuters",art:'<rect width="156" height="62" fill="#F8F5EE"/><rect x="48" y="10" width="60" height="42" fill="#fff" stroke="#141413" stroke-width="2"/><line x1="56" y1="20" x2="100" y2="20" stroke="#141413" stroke-width="2"/><line x1="56" y1="28" x2="100" y2="28" stroke="#A61C1C" stroke-width="2"/><line x1="56" y1="36" x2="88" y2="36" stroke="#141413" stroke-width="2"/><path d="M96 44 L108 30 L120 44Z" fill="#A61C1C"/>'},
+{n:8,t:"Nepal PM meets Modi in Delhi",s:"Balendra Shah holds talks with Narendra Modi in New Delhi.",d:"23 Nov",src:"ObserverVoice",art:'<rect width="156" height="62" fill="#EFE7D3"/><rect x="20" y="12" width="50" height="32" fill="#A61C1C"/><circle cx="45" cy="28" r="8" fill="#16233F"/><rect x="86" y="12" width="50" height="32" fill="#B98A2F"/><circle cx="111" cy="28" r="8" fill="#F8F5EE"/><path d="M40 52 L78 40 L116 52" stroke="#141413" stroke-width="3" fill="none"/>'},
+{n:9,t:"India posts record 720/9d",s:"Record Test total in Wellington against New Zealand.",d:"22-23 Nov",src:"ObserverVoice",art:'<rect width="156" height="62" fill="#3A5A2E"/><rect x="20" y="46" width="116" height="6" fill="#B98A2F"/><rect x="30" y="20" width="5" height="26" fill="#F8F5EE"/><rect x="40" y="20" width="5" height="26" fill="#F8F5EE"/><rect x="50" y="20" width="5" height="26" fill="#F8F5EE"/><text x="96" y="36" font-size="20" fill="#F8F5EE" font-weight="bold">720/9</text>'},
+{n:10,t:"Candy factory fire in Indonesia",s:"Three dead and about 50 missing after factory blaze.",d:"21-22 Nov",src:"JagranJosh",art:'<rect width="156" height="62" fill="#141413"/><rect x="30" y="28" width="96" height="34" fill="#6B6B60"/><path d="M50 28 Q56 8 62 20 Q68 4 74 18 Q80 8 86 28Z" fill="#A61C1C"/><rect x="100" y="10" width="10" height="18" fill="#3A3A35"/><circle cx="130" cy="14" r="8" fill="#B98A2F" opacity="0.7"/>'},
+{n:11,t:"24 killed in South Sudan",s:"Fresh violence leaves 24 civilians dead, SPLA-IO blamed.",d:"22 Nov",src:"AFP, Arab News",art:'<rect width="156" height="62" fill="#EFE7D3"/><path d="M30 50 L60 14 L96 14 L126 50Z" fill="#B98A2F"/><path d="M60 14 L78 34 L96 14" fill="#A61C1C"/><circle cx="78" cy="48" r="6" fill="#16233F"/>'},
+{n:12,t:"US probes Nvidia chips to China",s:"Washington seeks answers on AI chips reaching China.",d:"22 Nov",src:"Arab News",art:'<rect width="156" height="62" fill="#16233F"/><rect x="58" y="14" width="40" height="34" fill="#141413" stroke="#B98A2F" stroke-width="2"/><rect x="68" y="24" width="20" height="14" fill="#B98A2F"/><circle cx="128" cy="20" r="12" fill="none" stroke="#F8F5EE" stroke-width="3"/><text x="128" y="25" font-size="13" text-anchor="middle" fill="#F8F5EE" font-weight="bold">?</text>'},
+{n:13,t:"Liverpool rout Man Utd",s:"Liverpool thrash 10-man United in Pochettino\u2019s first match.",d:"22 Nov",src:"Arab News",art:'<rect width="156" height="62" fill="#A61C1C"/><circle cx="78" cy="31" r="20" fill="#F8F5EE"/><path d="M68 24 L78 31 L88 24 L86 36 L78 42 L70 36Z" fill="#141413"/><rect x="14" y="14" width="20" height="34" fill="none" stroke="#F8F5EE" stroke-width="2"/>'}
+];
+document.getElementById('cards').innerHTML=CARDS.map(c=>'<div class="card"><svg class="art" viewBox="0 0 156 62" preserveAspectRatio="xMidYMid slice">'+c.art+'</svg><h3><b style="color:#A61C1C">'+c.n+'.</b> '+c.t+'</h3><p>'+c.s+'</p><div class="meta"><b>'+c.d+'</b> &middot; '+c.src+'</div></div>').join('');
+const BRIEFS=[
+["MIDDLE EAST",[[14,"Iran strikes Bahrain site","Iran hits civilian industry in Bahrain; 2 wounded.","AFP, Reuters"],[15,"Houthi missiles at Riyadh stopped","Saudi-led coalition intercepts 3 missiles and a drone.","AFP via CBS"],[27,"Basra power station fire kills 4","Blaze at Iraqi power station kills 4 and injures 35.","Reuters"]]],
+["EUROPE",[[16,"Kryvyi Rih double-tap kills boy, 7","Russian strike kills a boy and a paramedic; 42 injured.","Reuters"],[17,"Poland: 3 Russian missiles hit","Warsaw confirms strikes; NATO vows to defend every inch.","Reuters, AFP"],[24,"Lisbon marches over living costs","Thousands protest as rising prices fuel public anger.","JagranJosh"],[36,"UK calls COP31 failure disappointing","Fahnbulleh: COP31 outcome immensely disappointing.","The Times"]]],
+["AFRICA",[[18,"WHO pleads for peace near Ebola zone","Chief urges calm around the DR Congo outbreak area.","AFP"],[19,"Sudan drones hit Khartoum homes","Strikes hit homes and a UN building in the capital.","AFP"],[20,"Nigeria: 35 killed in revenge attacks","Reprisals kill 35 Fulanis; boat accident toll reaches 24.","AFP"]]],
+["ASIA-PACIFIC",[[21,"Kim: security, not supremacy","Kim says North Korea seeks security, not dominance.","AFP"],[23,"Myanmar calls ASEAN move unfair","Army-backed govt rejects ASEAN decision as imbalanced.","Reuters"],[26,"ICJ Myanmar atrocity ruling","Malaysia to coordinate with UN and OIC after the ruling.","Reuters"],[35,"Albanese blames geopolitics","Australia PM calls COP31 failure a sign of hard times.","AFP"]]],
+["NORTH AMERICA",[[25,"Democrats clinch House majority","Historic win: at least 258 seats, largest since 1992.","Arab News"],[28,"Senate rejects Iran war-powers bid","Measure fails 48-51 as war debate splits the chamber.","Reuters"],[30,"Palisades Fire arsonist convicted","Jury convicts Jonathan Rinderknecht over the LA fire.","AP, Reuters"],[31,"Hackers seize server with AI agents","China-linked hackers used AI agents, Amazon reports.","AP"],[34,"Markets slide into Thanksgiving","Stocks in correction after the worst week in over a year.","Majik Briefing"]]],
+["LATIN AMERICA &amp; GLOBAL",[[22,"Bolsonaro stable in intensive care","Brazil ex-leader remains in intensive care.","AFP"],[29,"Trump meets Putin and Xi","Shenzhen summit held; Kyiv hit hours after the talks.","Reuters"],[32,"India-Bulgaria talk IMEC corridor","Delhi and Sofia discuss trade corridor and Black Sea ties.","DailyJagran"],[33,"Tata Steel in Rs 28,000-crore deal","Steel giant signs major deal with APL Apollo.","ObserverVoice"]]]
+];
+document.getElementById('briefs').innerHTML='<div class="bcol">'+BRIEFS.slice(0,2).map(g=>'<h4>'+g[0]+'</h4>'+g[1].map(b=>'<div class="brief"><div class="h"><b>'+b[0]+'.</b> '+b[1]+'</div><div class="s">'+b[2]+' <i>&mdash; '+b[3]+'</i></div></div>').join('')).join('')+'</div><div class="bcol">'+BRIEFS.slice(2,4).map(g=>'<h4>'+g[0]+'</h4>'+g[1].map(b=>'<div class="brief"><div class="h"><b>'+b[0]+'.</b> '+b[1]+'</div><div class="s">'+b[2]+' <i>&mdash; '+b[3]+'</i></div></div>').join('')).join('')+'</div><div class="bcol">'+BRIEFS.slice(4,6).map(g=>'<h4>'+g[0]+'</h4>'+g[1].map(b=>'<div class="brief"><div class="h"><b>'+b[0]+'.</b> '+b[1]+'</div><div class="s">'+b[2]+' <i>&mdash; '+b[3]+'</i></div></div>').join('')).join('')+'</div>';
+const EL=[[-100,48,32,18],[-42,73,10,6],[-60,-15,14,22],[15,54,18,10],[20,2,17,24],[90,48,55,20],[115,-2,18,8],[134,-25,14,8]];
+const PINS=[[30.7,36.9,1,-16,8],[56.5,26.5,2,0,0],[-108.5,25.6,3,0,0],[26.5,59.8,4,2,-4],[30.5,50.4,5,16,4],[6.1,46.2,6,-12,0],[127,37.5,7,0,0],[77.2,28.6,8,0,0],[174.8,-41.3,9,0,0],[107.6,-6.9,10,0,0],[31.6,4.85,11,0,0],[-122,37.4,12,0,0],[-2.99,53.4,13,-10,-6]];
+function px(lon){return (lon+180)/360*972}
+function py(lat){return (90-lat)/180*56}
+let dots='';
+for(let x=4;x<=968;x+=9){for(let y=4;y<=52;y+=5){const lon=x/972*360-180,lat=90-y/56*180;for(const e of EL){const dx=(lon-e[0])/e[2],dy=(lat-e[1])/e[3];if(dx*dx+dy*dy<=1){dots+='<circle cx="'+x+'" cy="'+y+'" r="1.6" fill="#16233F" opacity="0.55"/>';break}}}}
+document.getElementById('map').innerHTML=dots+PINS.map(p=>'<g><circle cx="'+(px(p[0])+p[3]).toFixed(1)+'" cy="'+(py(p[1])+p[4]).toFixed(1)+'" r="5.5" fill="#A61C1C"/><text x="'+(px(p[0])+p[3]).toFixed(1)+'" y="'+(py(p[1])+p[4]+2.5).toFixed(1)+'" font-size="7.5" text-anchor="middle" fill="#F8F5EE" font-weight="bold">'+p[2]+'</text></g>').join('');
+</script>
+</body></html>
